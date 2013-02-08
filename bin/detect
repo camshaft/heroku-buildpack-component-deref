@@ -1,0 +1,9 @@
+#!/bin/sh
+
+if [ -x $HOME/bin/deref ]; then
+  exit 0
+fi
+
+echo "deref(1) is required for this buildpack. Install it from https://github.com/CamShaft/heroku-buildpack-deref.git"
+
+exit 1
