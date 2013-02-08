@@ -1,6 +1,7 @@
 #!/bin/sh
 
 if [ -x $HOME/bin/deref ]; then
+  echo "component-deref"
   exit 0
 fi
 
